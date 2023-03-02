@@ -1,8 +1,8 @@
 # OpenAI-Cookbook-cn
 
-OpenAI CookBook 为完成OpenAI API的通用任务分享了一些示例代码。
+OpenAI CookBook 为完成[OpenAI API](https://openai.com/api/)的通用任务分享了一些示例代码。
 
-运行这些示例代码, 你需要一个OpenAI的账号以及其关联的API 密钥(创建API密钥)
+运行这些示例代码, 你需要一个OpenAI的账号以及其关联的API 密钥([创建API密钥](https://beta.openai.com/signup))
 
 绝大多数的样例代码是用Python编写的，这些概念也可以用于其他任何语言。
 
