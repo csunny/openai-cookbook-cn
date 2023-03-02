@@ -17,7 +17,7 @@ OpenAI CookBook 为完成OpenAI API的通用任务分享了一些示例代码。
 
 
 ## 指南与样例
-<hr>
+---
 - 接口使用
     - [如何处理速率限制](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_handle_rate_limits.ipynb)
         - [并行处理脚本样例来避免命中速率限制](https://github.com/openai/openai-cookbook/blob/main/examples/api_request_parallel_processor.py)
