@@ -19,28 +19,43 @@ OpenAI CookBook 为完成OpenAI API的通用任务分享了一些示例代码。
 ## 指南与样例
 ---
 - 接口使用
-    - 如何处理速率限制
-        - 并行处理脚本样例来避免命中速率限制
-    - 如何用tiktoken来对语言符号进行计数
-    - 如何流式化输出
+    - [如何处理速率限制](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_handle_rate_limits.ipynb)
+        - [并行处理脚本样例来避免命中速率限制](https://github.com/openai/openai-cookbook/blob/main/examples/api_request_parallel_processor.py)
+    - [如何用tiktoken来对语言符号进行计数](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_count_tokens_with_tiktoken.ipynb)
+    - [如何流式化输出](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_stream_completions.ipynb)
 - GPT
-    - 如何格式化ChatGPT模型的输入
+    - [如何格式化ChatGPT模型的输入](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_format_inputs_to_ChatGPT_models.ipynb)
 - GPT-3
-    - 指南: 如何使用大语言模型
-    - 指南: 提升可靠性的技巧
-    - 如何使用多步提示来写测试用例
-    - 文本编写样例
-    - 文本解释样例
-    - 文本编辑样例
-    - 代码编写样例
-    - 代码解释样例
-    - 代码编辑样例
+    - [指南: 如何使用大语言模型](https://github.com/openai/openai-cookbook/blob/main/how_to_work_with_large_language_models.md)
+    - [指南: 提升可靠性的技巧](https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md)
+    - [如何使用多步提示来写测试用例](https://github.com/openai/openai-cookbook/blob/main/examples/Unit_test_writing_using_a_multi-step_prompt.ipynb)
+    - [文本编写样例](https://github.com/openai/openai-cookbook/blob/main/text_writing_examples.md)
+    - [文本解释样例](https://github.com/openai/openai-cookbook/blob/main/text_explanation_examples.md)
+    - [文本编辑样例](https://github.com/openai/openai-cookbook/blob/main/text_editing_examples.md)
+    - [代码编写样例](https://github.com/openai/openai-cookbook/blob/main/code_writing_examples.md)
+    - [代码解释样例](https://github.com/openai/openai-cookbook/blob/main/code_explanation_examples.md)
+    - [代码编辑样例](https://github.com/openai/openai-cookbook/blob/main/code_editing_examples.md)
 - 嵌入
-    - 
+    - [文本比对样例](https://github.com/openai/openai-cookbook/blob/main/text_comparison_examples.md)
+    - [如何获取嵌入](https://github.com/openai/openai-cookbook/blob/main/examples/Get_embeddings.ipynb)
+    - [使用嵌入回答问题](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb)
+    - [使用嵌入的语义搜索](https://github.com/openai/openai-cookbook/blob/main/examples/Semantic_text_search_using_embeddings.ipynb)
+    - [使用嵌入做推荐](https://github.com/openai/openai-cookbook/blob/main/examples/Recommendation_using_embeddings.ipynb)
+    - [使用嵌入聚类](https://github.com/openai/openai-cookbook/blob/main/examples/Clustering.ipynb)
+    - [嵌入可视化在2D或者3D场景](https://github.com/openai/openai-cookbook/blob/main/examples/Visualizing_embeddings_in_2D.ipynb)
+    - [嵌入长文本](https://github.com/openai/openai-cookbook/blob/main/examples/Embedding_long_inputs.ipynb)
 - 微调GPT-3
+    - [指南: 微调GPT-3在文本分类场景下的最佳实践](https://docs.google.com/document/d/1rqj7dkuvl7Byd5KQPUJRxc19BJt8wo0yHNwK84KfU3Q/edit)
+    - [微调分类](https://github.com/openai/openai-cookbook/blob/main/examples/Fine-tuned_classification.ipynb)
 - DALL-E
+    - [如何生成并编辑图片使用DALL-E](https://github.com/openai/openai-cookbook/blob/main/examples/dalle/Image_generations_edits_and_variations_with_DALL-E.ipynb)
 - Azure OpenAI
+    - [如何用Azure OpenAI获取结果](https://github.com/openai/openai-cookbook/blob/main/examples/azure/completions.ipynb)
+    - [如何用Azure OpenAI获取嵌入](https://github.com/openai/openai-cookbook/blob/main/examples/azure/embeddings.ipynb)
+    - [如何用Azure OpenAI微调GPT-3](https://github.com/openai/openai-cookbook/blob/main/examples/azure/finetuning.ipynb)
 - 应用
+    - [文件的问答](https://github.com/openai/openai-cookbook/blob/main/apps/file-q-and-a)
+    - [网页抓取问答](https://github.com/openai/openai-cookbook/blob/main/apps/web-crawl-q-and-a)
 
 ## 相关资料
 ------
